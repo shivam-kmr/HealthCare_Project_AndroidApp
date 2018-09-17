@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bubb1"
+    tools:context=".display">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginBottom="524dp"
+        android:layout_marginTop="26dp"
+        android:text="DATE"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/btnSignIn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="368dp"
+        android:layout_height="377dp"
+        android:layout_marginBottom="122dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="53dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/space"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/modetext"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:text="MODE"
+                android:textColor="#fff9ff"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/space1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/mode"
+                android:layout_width="80dp"
+                android:layout_height="49dp"
+                android:background="@android:color/transparent"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#feb47b"
+                android:textSize="25dp"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/space2"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/therapyhrstext"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:text="Therapy HRS"
+                android:textAlignment="center"
+                android:textColor="#fff9ff"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+
+            <TextView
+                android:id="@+id/space3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/therapyhrs"
+                android:layout_width="80dp"
+                android:layout_height="49dp"
+                android:background="@android:color/transparent"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#feb47b"
+                android:textSize="25dp"
+
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/space4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/ipaptext"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:text="IPAP"
+                android:textColor="#fff9ff"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/space5"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/ipap"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:background="@android:color/transparent"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#feb47b"
+                android:textSize="25dp"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/space6"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/epaptext"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:text="EPAP"
+                android:textColor="#fff9ff"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/space7"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/epap"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:background="@android:color/transparent"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#feb47b"
+
+                android:textSize="25dp"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/space8"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/breathratetext"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@android:color/transparent"
+                android:text="Breath Rate"
+                android:textColor="#fff9ff"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/space9"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/breathrate"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:background="@android:color/transparent"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#feb47b"
+
+                android:textSize="25dp"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="153dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginStart="148dp"
+        android:background="@android:color/transparent"
+        android:text="←"
+        android:textColor="@android:color/white"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+
+</android.support.constraint.ConstraintLayout>

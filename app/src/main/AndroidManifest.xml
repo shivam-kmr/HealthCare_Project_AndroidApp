@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shivamkumar.synocare">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/care"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/care"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityHome" />
+        <activity android:name=".Scanner" />
+        <activity android:name=".bluetooth" />
+        <activity android:name=".ListDevice" />
+        <activity android:name=".DeviceListActivity" />
+        <activity android:name=".ledControl" />
+        <activity android:name=".icode" />
+        <activity android:name=".ahi" />
+        <activity android:name=".icodescanner" />
+        <activity android:name=".display"></activity>
+    </application>
+
+</manifest>

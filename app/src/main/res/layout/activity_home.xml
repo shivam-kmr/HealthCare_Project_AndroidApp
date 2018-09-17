@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bubb1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityHome">
+
+    <Button
+        android:id="@+id/icodeimg"
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/programming_code_signs"
+        app:layout_constraintBottom_toTopOf="@+id/icode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <Button
+        android:id="@+id/scanimg"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="83dp"
+        android:background="@drawable/qr_code"
+        app:layout_constraintBottom_toTopOf="@+id/scan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icode" />
+
+    <Button
+        android:id="@+id/bluetooth"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="508dp"
+        android:background="@android:color/transparent"
+        android:text="Connect Bluetooth!"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="153dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:text="SCAN"
+        android:textColor="#006400"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/bluetooth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/icode"
+        android:layout_width="153dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="131dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="192dp"
+        android:background="@android:color/transparent"
+        android:text="ICODE"
+        android:textColor="#006400"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
